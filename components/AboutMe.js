@@ -17,7 +17,7 @@ const AboutMe = () => {
             Self-starting Web Developer
           </p>
         </div>
-        <div className="flex justify-evenly mt-8 slit-in-vertical">
+        <div className="flex justify-evenly mt-8 slit-in-vertical bg-yellow-50 p-8">
           <Card color={"bg-fuchsia-700 p-2"}>
             <p className="poppinsBold text-yellow-200 poppins20 pb-1">
               Front End
@@ -89,7 +89,7 @@ const AboutMe = () => {
           <ul>
             <li className="text-yellow-50 ">
               <span className="poppinsBold text-yellow-200 text-lg">Lang</span>{" "}
-              - Nodejs - Mvc & Rest api etc..
+              - Nodejs  Mvc & Rest api etc..
             </li>
             <li className="text-yellow-50 ">
               <span className="poppinsBold text-yellow-200 text-lg">SQL</span> -
@@ -113,26 +113,26 @@ const AboutMe = () => {
               </p>
               <p>
                 Friendly, collaborative and be able to function well in team
-                Analytical, Innovative, Creative , Adaptable
+                Analytical, Innovative, Creative, Adaptable
               </p>
             </div>
-            <div>
+            <div className="ml-2">
               <h1 className="poppinsBold poppins20 pb-1 text-fuchsia-700">
                 Projects
               </h1>
               <div className="flex flex-col">
                 <Link href="/tatilBudur">
-                  <a target="_blank">
+                  <a className="poppinsSemiBold underline text-fuchsia-500" target="_blank">
                     Tatil Budur Competition
                   </a>
                 </Link>
                 <Link href="http://rocknride.s3-website-us-east-1.amazonaws.com">
-                  <a target="_blank">
+                  <a className="poppinsSemiBold underline text-fuchsia-500" target="_blank">
                     RocknRide
                   </a>
                 </Link>
                 <Link href="/spearfishing">
-                  <a target="_blank">
+                  <a className="poppinsSemiBold underline text-fuchsia-500" target="_blank">
                     Spearfishing
                   </a>
                 </Link>
@@ -141,10 +141,10 @@ const AboutMe = () => {
           </div>
           <div className="mt-2">
             <p className="poppinsBold poppins20 pb-1 text-fuchsia-700">
-              For more look to my github
+              Look at my github
             </p>
             <Link href="https://github.com/EmreManis">
-              <a target="_blank">
+              <a className="poppinsSemiBold" target="_blank">
                 https://github.com/EmreManisRocknRide
               </a>
             </Link>
@@ -152,7 +152,7 @@ const AboutMe = () => {
               Contact me
             </p>
             <Link href="mailto:emremn07@gmail.com">
-              <a target="_blank">
+              <a className="poppinsSemiBold" target="_blank">
                 emremn07@gmail.com
               </a>
             </Link>
