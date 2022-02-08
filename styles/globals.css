@@ -123,8 +123,8 @@ input {
 }
 
 .cardSize {
-  width: 260px;
-  height: 320px;
+  width: 32rem;
+  height: 16rem;
 }
 
 .slide-in-top {
@@ -140,11 +140,6 @@ input {
 .slide-in-bottom {
 	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.fade-in {
-	-webkit-animation: fade-in 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @media (min-width: 640px) {
@@ -236,19 +231,3 @@ input {
   }
 }
 
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
