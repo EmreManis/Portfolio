@@ -121,14 +121,14 @@ const AboutMe = () => {
                 Projects
               </h1>
               <div className="flex flex-col">
+              <Link href="http://rocknride.s3-website-us-east-1.amazonaws.com">
+                  <a className="poppinsSemiBold underline text-fuchsia-500" target="_blank">
+                    RocknRide
+                  </a>
+                </Link>
                 <Link href="/tatilBudur">
                   <a className="poppinsSemiBold underline text-fuchsia-500" target="_blank">
                     Tatil Budur Competition
-                  </a>
-                </Link>
-                <Link href="http://rocknride.s3-website-us-east-1.amazonaws.com">
-                  <a className="poppinsSemiBold underline text-fuchsia-500" target="_blank">
-                    RocknRide
                   </a>
                 </Link>
                 <Link href="/spearfishing">
