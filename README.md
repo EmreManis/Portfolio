@@ -1,16 +1,6 @@
-!!! Proje pixel-perfect degildir, sadece 1 breakpoint(640px ) yaptim.
+Download ettikten sonra npm install ile dependency leri yukleyin
 
-!!! Kullanim ihtiyacina gore sayfada bolumler dinamiklestirilebilir veya admin page eklenip aktiflestirilebilir.
-
-!!! Search area autoComplete icin Hotel api leri arastirdim ama ucretsiz demo app yapmak imkansiz gibi birsey. Development icin 
-30 dakikalik gecici tokenler ile istedigin dataya ulasilabiliyor ya da direkt firma bilgileri isteniyor. Google Places ile
-2 veya daha fazla kademede istenilen dataya ulasiliyor. 
-
-Will be added
-
-!!! Sass eklenecek 
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js] project
 
 ## Getting Started
 
