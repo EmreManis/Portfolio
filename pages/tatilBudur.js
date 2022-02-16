@@ -27,6 +27,10 @@ function TatilBudur() {
         strategy="beforeInteractive"
         src={`https://maps.googleapis.com/maps/api/js?key=${API_KEY}&libraries=places&query=shaheen%20public`}
       ></Script>
+      <p className="text-center text-xl text-red-700 poppinsBold">
+        !!! Proje does not pixel-perfect,it has only 1 breakpoint(640px (set your browser
+        size smaller then 640px to see responsive design)).
+      </p>
       <Layout>
         <SearchSection />
         <InfoSection />

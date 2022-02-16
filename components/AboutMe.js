@@ -126,56 +126,58 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className="poppinsBold poppins20 pb-1 text-sky-700">Projects</h1>
-        <div className="flex">
-          <div className="flex flex-col">
+      <div className="slide-in-bottom">
+        <h1 className="poppinsBold poppins20 pb-1 text-center text-sky-700">
+          Projects
+        </h1>
+        <div className="flex justify-evenly mt-4">
+          <div>
             <Link href="http://rocknride.s3-website-us-east-1.amazonaws.com">
               <a
-                className="poppinsSemiBold underline text-sky-600"
+                className="flex flex-col pb-1"
                 target="_blank"
               >
-                RocknRide
+                <Image
+                  src={rocknride}
+                  alt="code project1"
+                  height={400}
+                  width={210}
+                />
+                <span className="mt-4 poppinsSemiBold underline text-center text-sky-600">ROCKNRIDE</span>
               </a>
             </Link>
-            <Image
-              src={rocknride}
-              alt="code project1"
-              height={400}
-              width={210}
-            />
           </div>
-          <div className="flex flex-col">
-          <Link href="/tatilBudur">
-            <a
-              className="poppinsSemiBold underline text-sky-600"
-              target="_blank"
-            >
-              Tatil Budur Competition
-            </a>
-          </Link>
-          <Image
-              src={tatilbudur}
-              alt="code project1"
-              height={400}
-              width={210}
-            />
+          <div>
+            <Link href="/tatilBudur">
+              <a
+                className="flex flex-col pb-1"
+                target="_blank"
+              >
+                <Image
+                  src={tatilbudur}
+                  alt="code project1"
+                  height={400}
+                  width={210}
+                />
+                <span className="mt-4 poppinsSemiBold underline text-center text-sky-600">TATILBUDUR COMPETITION</span>  
+              </a>
+            </Link>
           </div>
-          <div className="flex flex-col">
-          <Link href="/spearfishing">
-            <a
-              className="poppinsSemiBold underline text-sky-600"
-              target="_blank"
-            >
-              Spearfishing
-            </a>
-          </Link>
-          <Image
-            src={alparslan_kulakac}
-            alt="code project1"
-            height={400}
-            width={210}
-          />
+          <div>
+            <Link href="/spearfishing">
+              <a
+                className="flex flex-col pb-1"
+                target="_blank"
+              >
+                <Image
+                  src={alparslan_kulakac}
+                  alt="code project1"
+                  height={400}
+                  width={210}
+                />
+                <span className="mt-4 poppinsSemiBold underline text-center text-sky-600">SPEARFISHING</span>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
