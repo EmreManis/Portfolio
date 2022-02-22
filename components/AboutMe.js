@@ -9,15 +9,15 @@ const AboutMe = () => {
   return (
     <div>
       <div>
-        <div className="flex flex-col slide-in-top items-center mr-64">
+        <div className="flex flex-col slide-in-top items-center 2xl:mr-64">
           <h1 className="poppinsBold poppins24 text-sky-700 mt-4">
             Emre Manış
           </h1>
           <p className="poppins20 ">1987 Antalya/Turkey</p>
           <p className="poppins20 ">Self-starting Web Developer</p>
         </div>
-        <div className="flex justify-around mt-8 slit-in-vertical p-8">
-          <div className="cardSize">
+        <div className="lg:flex justify-evenly lg:justify-around mt-4 md:mt-8 slit-in-vertical p-4 lg:p-8">
+          <div className="lg:cardSize">
             <p className="poppinsBold text-sky-700 poppins20 pb-1">Front End</p>
             <ul>
               <li>Highly skilled in HTML/CSS/JavaScript</li>
@@ -44,7 +44,7 @@ const AboutMe = () => {
             </ul>
           </div>
           <div className="basis-1/3">
-            <p className="poppinsBold text-sky-700 poppins20 pb-1">
+            <p className="poppinsBold text-sky-700 poppins20 pt-4 lg:pt-0 pb-1">
               What can I do ?
             </p>
             <ul>
@@ -70,8 +70,8 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-around mt-8 slide-in-bottom p-8">
-        <div className="cardSize">
+      <div className="md:flex justify-evenly md:justify-around mt-4 md:mt-6 lg:mt-8 slide-in-bottom p-4 md:p-6 lg:p-8">
+        <div className="md:cardSize">
           <p className="poppinsBold text-sky-700 poppins20 pb-1">Back End</p>
           <ul>
             <li>
@@ -92,7 +92,7 @@ const AboutMe = () => {
             <li>Confluence</li>
           </ul>
         </div>
-        <div className="flex flex-col basis-1/3">
+        <div className="flex flex-col basis-1/3 pt-4 md:pt-0">
           <div className="flex">
             <div className="basis-1/2">
               <p className="poppinsBold text-sky-700 poppins20 pb-1">
@@ -126,7 +126,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="slide-in-bottom">
+      <div className="slide-in-bottom mt-4 md:mt-6 lg:mt-8 2xl:mr-64">
         <h1 className="poppinsBold poppins20 pb-1 text-center text-sky-700">
           Projects
         </h1>
